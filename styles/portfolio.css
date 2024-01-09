@@ -14,6 +14,17 @@ body {
   color: white;
   padding: 15px 35px;
 }
+.btn-primary1 {
+  background-color: transparent;
+  color: #fd6e0a;
+  border-color: #fd6e0a;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 35px;
+  margin-left: 20px;
+  
+}
 
 .section-title {
   color: #181818;
@@ -156,4 +167,31 @@ main section {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-description,
+.resume-item-institute {
+  color: #757575;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.resime-container hr {
+  margin: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
