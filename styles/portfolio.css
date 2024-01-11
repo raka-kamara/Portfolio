@@ -223,3 +223,48 @@ textarea {
 .social-links a{
   margin-right: 25px;
 }
+
+/* Rsponsive style */
+
+/* Small device */
+@media screen and (max-width:576px){
+
+  .header{
+    background-image: none;
+  }
+  .skills-container, .resume-container, footer,.about-info-container, 
+  .banner,
+  nav, nav>ul{
+    flex-direction: column;
+  }
+  nav > ul{
+    gap: 10px;
+  }
+  .banner .profile-pic{
+    width: 100%;
+  }
+
+  .btn-primary{
+    margin-bottom: 15px;
+  }
+
+  .banner, #what-i-do-description{
+    padding: 20px;
+  }
+  footer, .about{
+    padding: 10px;
+  }
+ 
+  .footer-column{
+    width: 100%;   
+  }
+  .contact{
+    width: 80%;
+  }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:960px){
+
+}
